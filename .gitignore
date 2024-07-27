@@ -1,4 +1,14 @@
 iterm2/*
+
 nvim/lazy-lock.json
+
 sonic-pi.net/*
-zed
+
+zed/*
+
+fish/*
+fish/conf.d/*
+
+!fish/config.fish
+!fish/fish_plugins
+!fish/conf.d/aliases.fish

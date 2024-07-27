@@ -1,12 +1,10 @@
-#################
-# MISCELLANEOUS #
-#################
+########
+# NVIM #
+########
 
-alias b="brew"
 alias v="nvim"
 alias vi="nvim"
 alias vim="nvim"
-alias n="sudo n"
 
 #######
 # EZA #
@@ -16,28 +14,30 @@ alias ls="eza --long --all"
 alias lsf="eza -lf --all"
 alias lsd="eza -lD --all"
 
-##################
-# PYTHON ALIASES #
-##################
+##########
+# PYTHON #
+##########
+
 alias p="python"
 
-###############
-# GIT ALIASES #
-###############
+#######
+# GIT #
+#######
 
 alias g="git"
 alias delete-merged-branches='git branch --merged | egrep -v "(^\*|master|rc)" | xargs git branch -d'
 
-################
-# HTOP ALIASES #
-################
+########
+# HTOP #
+########
 
 alias htop="sudo htop"
 
-#####################
-# HOMEBREW ALIASES #
-#####################
+############
+# HOMEBREW #
+############
 
+alias b="brew"
 alias b-upgrade-all="b upgrade && b upgrade --cask --greedy && brew cleanup"
 
 #######

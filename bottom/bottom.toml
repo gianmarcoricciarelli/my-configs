@@ -1,0 +1,6 @@
+[flags]
+color = "gruvbox"
+temperature_type = "c"
+battery = false
+basic = true
+default_widget_type = "proc"

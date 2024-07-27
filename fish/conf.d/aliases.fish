@@ -35,13 +35,6 @@ alias delete-merged-branches='git branch --merged | egrep -v "(^\*|master|rc)" |
 alias htop="sudo htop"
 
 #####################
-# MULTIPASS ALIASES #
-#####################
-
-alias m-portforwarding="../multipasswrap.py portforwarding"
-alias m-vpn="../multipasswrap.py --debug vpn"
-
-#####################
 # HOMEBREW ALIASES #
 #####################
 

@@ -597,12 +597,10 @@ require("lazy").setup({
 			})
 		end,
 	},
-
 	{
 		"folke/tokyonight.nvim",
 		priority = 1000,
 	},
-
 	{
 		"catppuccin/nvim",
 		name = "catppuccin",
@@ -616,7 +614,6 @@ require("lazy").setup({
 			-- vim.cmd.colorscheme("catppuccin")
 		end,
 	},
-
 	{
 		"ellisonleao/gruvbox.nvim",
 		name = "gruvbox",
@@ -624,7 +621,21 @@ require("lazy").setup({
 		config = function()
 			require("gruvbox").setup({})
 			-- Here activate the coloscheme
-			vim.cmd.colorscheme("gruvbox")
+			-- vim.cmd.colorscheme("gruvbox")
+		end,
+	},
+	{
+		"rose-pine/neovim",
+		name = "rose-pine",
+		priority = 1000,
+		config = function()
+			require("rose-pine").setup({
+				styles = {
+					bold = false,
+					italic = false,
+				},
+			})
+			vim.cmd.colorscheme("rose-pine")
 		end,
 	},
 	-- Highlight todo, notes, etc in comments

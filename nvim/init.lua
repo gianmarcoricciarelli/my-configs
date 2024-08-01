@@ -488,7 +488,7 @@ require("lazy").setup({
 				scss = { { "prettier", "prettier" } },
 				html = { { "prettier", "prettier" } },
 				python = { "black", "isort", "autopep8" },
-				yaml = { { "prettierd", "prettier" } },
+				yaml = { "prettier" },
 			},
 		},
 	},
@@ -630,6 +630,7 @@ require("lazy").setup({
 		priority = 1000,
 		config = function()
 			require("rose-pine").setup({
+				variant = "moon",
 				styles = {
 					bold = false,
 					italic = false,

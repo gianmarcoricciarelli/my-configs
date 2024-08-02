@@ -397,9 +397,7 @@ require("lazy").setup({
 			--  - settings (table): Override the default settings passed when initializing the server.
 			--        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
 			local servers = {
-				-- clangd = {},
 				gopls = {},
-				-- pyright = {},
 				rust_analyzer = {},
 				tsserver = {},
 				emmet_language_server = {},
@@ -411,7 +409,6 @@ require("lazy").setup({
 				-- But for many setups, the LSP (`tsserver`) will work just fine
 				-- tsserver = {},
 				--
-
 				lua_ls = {
 					-- cmd = {...},
 					-- filetypes = { ...},
@@ -440,7 +437,15 @@ require("lazy").setup({
 			-- for you, so that they are available from within Neovim.
 			local ensure_installed = vim.tbl_keys(servers or {})
 			vim.list_extend(ensure_installed, {
-				"stylua", -- Used to format Lua code
+				"emmet_language_server",
+				"gopls",
+				"lua-language-server",
+				"lua_ls",
+				"prettier",
+				"rust-analyzer",
+				"stylua",
+				"typescript-language-server",
+				"vue-language-server",
 			})
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
 			require("mason-lspconfig").setup({

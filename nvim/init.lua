@@ -620,7 +620,7 @@ require("lazy").setup({
 		config = function()
 			require("gruvbox").setup({})
 			-- Here activate the coloscheme
-			-- vim.cmd.colorscheme("gruvbox")
+			vim.cmd.colorscheme("gruvbox")
 		end,
 	},
 	{
@@ -635,7 +635,7 @@ require("lazy").setup({
 					italic = false,
 				},
 			})
-			vim.cmd.colorscheme("rose-pine")
+			-- vim.cmd.colorscheme("rose-pine")
 		end,
 	},
 	-- Highlight todo, notes, etc in comments

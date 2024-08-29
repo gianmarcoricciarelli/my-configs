@@ -1,0 +1,113 @@
+{
+    "[html][css][scss][vue][javascript][javascriptreact][typescript][typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "always"
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json][jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "prettier.tabWidth": 4
+    },
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.wordBasedSuggestions": "off",
+        "gitlens.codeLens.symbolScopes": ["!Module"]
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    },
+    "catppuccin.accentColor": "pink",
+    "catppuccin.boldKeywords": false,
+    "catppuccin.italicComments": false,
+    "catppuccin.italicKeywords": false,
+    "cSpell.userWords": [
+        "Bencode",
+        "bencodeparser",
+        "catppuccin",
+        "compat",
+        "composables",
+        "desaturated",
+        "Domotz",
+        "dotenv",
+        "ecommerce",
+        "esbenp",
+        "firstname",
+        "Gianmarco",
+        "gianmarcoricciarelli",
+        "gofmt",
+        "Gruvbox",
+        "gsap",
+        "Iosevka",
+        "jsforce",
+        "kpis",
+        "licence",
+        "linebreak",
+        "Macchiato",
+        "Modstamp",
+        "Morty",
+        "nmap",
+        "packagejson",
+        "Parens",
+        "Perc",
+        "pydantic",
+        "Pylance",
+        "resourcelocator",
+        "Ricciarelli",
+        "saleforce",
+        "SERVERPORT",
+        "sobject",
+        "Stringifier",
+        "tamasfe",
+        "tanstack",
+        "taskstore",
+        "Todos",
+        "treedom",
+        "trivago",
+        "tseslint"
+    ],
+    "editor.autoClosingDelete": "always",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Iosevka Regular",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "eslint.debug": true,
+    "eslint.format.enable": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "onFocusChange",
+    "hediet.vscode-drawio.resizeImages": null,
+    "prettier.enableDebugLogs": true,
+    "python.defaultInterpreterPath": "/Users/gianmarcoricciarelli/.pyenv/versions/3.11.9/envs/domotz_tooling/bin/python",
+    "search-presets.custom": {
+        "package.json": {
+            "filesToInclude": "package.json"
+        },
+        "TSX Files": {
+            "filesToInclude": ".tsx",
+            "isCaseSensitive": false
+        },
+        "Typescript Files": {
+            "filesToInclude": ".ts",
+            "isCaseSensitive": false
+        },
+        "Python Files": {
+            "filesToInclude": ".py",
+            "isCaseSensitive": false
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "fish",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.iconTheme": "bearded-icons",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "redhat.telemetry.enabled": false,
+    "editor.linkedEditing": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "Prettier-SQL.keywordCase": "lower",
+    "gitlens.views.branches.branches.layout": "list",
+}

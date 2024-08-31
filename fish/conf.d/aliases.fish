@@ -14,24 +14,12 @@ alias ls="eza --long --all"
 alias lsf="eza -lf --all"
 alias lsd="eza -lD --all"
 
-##########
-# PYTHON #
-##########
-
-alias p="python"
-
 #######
 # GIT #
 #######
 
 alias g="git"
 alias delete-merged-branches='git branch --merged | egrep -v "(^\*|master|rc)" | xargs git branch -d'
-
-########
-# HTOP #
-########
-
-alias htop="sudo htop"
 
 ############
 # HOMEBREW #

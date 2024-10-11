@@ -399,7 +399,7 @@ require("lazy").setup({
 			local servers = {
 				gopls = {},
 				rust_analyzer = {},
-				tsserver = {},
+				ts_ls = {},
 				emmet_language_server = {},
 				-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 				--

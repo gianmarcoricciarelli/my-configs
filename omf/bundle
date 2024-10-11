@@ -4,3 +4,5 @@ package nvm
 package pisces
 package z
 theme default
+theme pure
+theme robbyrussell

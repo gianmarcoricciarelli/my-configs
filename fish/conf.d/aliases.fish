@@ -19,7 +19,7 @@ alias lsd="eza -lD --all"
 #######
 
 alias g="git"
-alias delete-merged-branches='git branch --merged | egrep -v "(^\*|master|rc)" | xargs git branch -d'
+alias delete-merged-branches='git branch --merged | egrep -v "(^\*|master|rc|dev)" | xargs git branch -d'
 
 ############
 # HOMEBREW #

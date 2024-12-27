@@ -1,0 +1,46 @@
+{
+    "[html][css][scss][vue][javascript][javascriptreact][typescript][typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "always"
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json][jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "prettier.tabWidth": 4
+    },
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "Iosevka",
+    "editor.fontSize": 14,
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 4,
+    "eslint.debug": true,
+    "eslint.format.enable": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.enableDebugLogs": true,
+    "turboConsoleLog.logMessagePrefix": "",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vim.hlsearch": true,
+    "vim.ignorecase": true,
+    "vim.incsearch": true,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "w"],
+            "commands": ["workbench.action.files.save"]
+        }
+    ],
+    "vim.smartRelativeLine": true,
+    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none"
+}

@@ -1,13 +1,16 @@
 {
-    "[html][css][scss][vue][javascript][javascriptreact][typescript][typescriptreact]": {
+    "[html][css][scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript][javascriptreact][typescript][typescriptreact]": {
         "editor.codeActionsOnSave": {
-            "source.fixAll": "always"
+            "source.fixAll": "always",
+            "source.organizeImports": "explicit"
         },
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[json][jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "prettier.tabWidth": 4
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.detectIndentation": false,
     "editor.fontFamily": "Iosevka",
@@ -25,7 +28,11 @@
         "**/.git": false
     },
     "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.arrowParens": "always",
     "prettier.enableDebugLogs": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.semi": false,
+    "prettier.tabWidth": 4,
     "turboConsoleLog.logMessagePrefix": "",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "vim.hlsearch": true,
@@ -39,7 +46,7 @@
         }
     ],
     "vim.smartRelativeLine": true,
-    "workbench.colorTheme": "Gruvbox Dark Hard",
+    "workbench.colorTheme": "Gruvbox Dark Soft",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none"

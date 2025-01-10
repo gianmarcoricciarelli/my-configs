@@ -1,0 +1,30 @@
+{
+    "React Functional Component": {
+        "prefix": "rfc",
+        "body": [
+            "export default function ${1: ComponentName}() {",
+            "   return <div>${0}</div>;",
+            "}"
+        ]
+    },
+    "React Functional Component With Interface": {
+        "prefix": "rfci",
+        "body": [
+            "interface ${1: ComponentName} {",
+            "   ${2: PropName}: ${3: PropType}",
+            "}",
+            "",
+            "export default function ${1: ComponentName}({ ${2: PropName } }: ${1: ComponentName}) {",
+            "   return <div>${0}</div>;",
+            "}"
+        ]
+    },
+    "React Custom Hook": {
+        "prefix": "rcu",
+        "body": [
+            "export default function use${1: HookName}(${2: HookProps}) {",
+            "   ${3: HookBody}",
+            "}"
+        ]
+    }
+}

@@ -79,7 +79,7 @@ CASE_SENSITIVE="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(aliases git z nvm pnpm-shell-completion docker zsh-autopair)
+plugins=(git z nvm pnpm-shell-completion docker zsh-autopair)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -98,6 +98,12 @@ source <(ng completion script)
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)
+
+# Set up pyenv & Set up pyenv-virtualenv 
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+eval "$(pyenv virtualenv-init -)"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 

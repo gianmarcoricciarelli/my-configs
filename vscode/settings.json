@@ -1,10 +1,13 @@
 {
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
     "[html][css][scss]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript][javascriptreact][typescript][typescriptreact]": {
         "editor.codeActionsOnSave": {
-            "source.fixAll": "always",
+            "source.fixAll": "explicit",
             "source.organizeImports": "explicit"
         },
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -12,6 +15,25 @@
     "[json][jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.ruff": "always",
+            "source.organizeImports.ruff": "explicit",
+            "source.unusedImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnType": true
+    },
+    "cSpell.userWords": [
+        "apexcharts",
+        "autodocs",
+        "datalabels",
+        "nodenext",
+        "ohmyzsh",
+        "xaxis",
+        "yaxis"
+    ],
+    "debug.terminal.clearBeforeReusing": true,
     "editor.detectIndentation": false,
     "editor.fontFamily": "Iosevka",
     "editor.fontSize": 14,
@@ -33,6 +55,13 @@
     "prettier.jsxSingleQuote": true,
     "prettier.semi": false,
     "prettier.tabWidth": 4,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "strict",
+    "ruff.organizeImports": true,
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "Iosevka Term, MesloLGS NF",
+    "terminal.integrated.fontSize": 14,
     "turboConsoleLog.logMessagePrefix": "",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "vim.hlsearch": true,
@@ -46,7 +75,7 @@
         }
     ],
     "vim.smartRelativeLine": true,
-    "workbench.colorTheme": "Gruvbox Dark Soft",
+    "workbench.colorTheme": "Gruvbox Dark Hard",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none"

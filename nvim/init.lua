@@ -115,7 +115,12 @@ require("lazy").setup({
 			},
 		},
 	},
-
+	{
+		"nvzone/typr",
+		dependencies = "nvzone/volt",
+		opts = {},
+		cmd = { "Typr", "TyprStats" },
+	},
 	-- NOTE: Plugins can also be configured to run Lua code when they are loaded.
 	--
 	-- This is often very useful to both group configuration, as well as handle
@@ -598,23 +603,6 @@ require("lazy").setup({
 		end,
 	},
 	{
-		"folke/tokyonight.nvim",
-		priority = 1000,
-	},
-	{
-		"catppuccin/nvim",
-		name = "catppuccin",
-		priority = 1000,
-		config = function()
-			require("catppuccin").setup({
-				no_bold = true,
-				no_italic = true,
-			})
-			-- Here activate the colorscheme
-			-- vim.cmd.colorscheme("catppuccin")
-		end,
-	},
-	{
 		"ellisonleao/gruvbox.nvim",
 		name = "gruvbox",
 		priority = 1000,
@@ -622,21 +610,6 @@ require("lazy").setup({
 			require("gruvbox").setup({})
 			-- Here activate the coloscheme
 			vim.cmd.colorscheme("gruvbox")
-		end,
-	},
-	{
-		"rose-pine/neovim",
-		name = "rose-pine",
-		priority = 1000,
-		config = function()
-			require("rose-pine").setup({
-				variant = "moon",
-				styles = {
-					bold = false,
-					italic = false,
-				},
-			})
-			-- vim.cmd.colorscheme("rose-pine")
 		end,
 	},
 	-- Highlight todo, notes, etc in comments

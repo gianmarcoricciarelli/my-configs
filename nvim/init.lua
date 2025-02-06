@@ -14,6 +14,8 @@ vim.opt.rtp:prepend(lazypath)
 
 -- [[ Configure and install plugins ]]
 require("lazy").setup({
+	require("config.plugins.nvim-surround"),
+	require("config.plugins.nvim-tree"),
 	"tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
 	require("config.plugins.everforest"),
 	-- "gc" to comment visual regions/lines

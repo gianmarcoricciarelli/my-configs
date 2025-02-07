@@ -129,7 +129,25 @@ return { -- LSP Configuration & Plugins
 		local servers = {
 			gopls = {},
 			rust_analyzer = {},
-			ts_ls = {},
+			ts_ls = {
+				on_attach = function(client, bufnr)
+					-- Function to organize imports
+					local function organize_imports()
+						local params = {
+							command = "_typescript.organizeImports",
+							arguments = { vim.api.nvim_buf_get_name(0) },
+							title = "Organize Imports",
+						}
+						vim.lsp.buf.execute_command(params)
+					end
+
+					-- Automatically organize imports before saving
+					vim.api.nvim_create_autocmd("BufWritePre", {
+						buffer = bufnr,
+						callback = organize_imports,
+					})
+				end,
+			},
 			emmet_language_server = {},
 			-- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
 			--

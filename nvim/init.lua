@@ -56,6 +56,7 @@ require("lazy").setup({
 	},
 	require("config.plugins.mini"),
 	require("config.plugins.treesitter"),
+	require("config.plugins.nvim-material-icon"),
 }, {
 	ui = {
 		icons = vim.g.have_nerd_font and {} or {

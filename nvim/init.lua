@@ -14,6 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 
 -- [[ Configure and install plugins ]]
 require("lazy").setup({
+	require("config.plugins.project"),
 	require("config.plugins.nvim-surround"),
 	require("config.plugins.nvim-tree"),
 	{

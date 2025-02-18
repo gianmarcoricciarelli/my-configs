@@ -32,6 +32,7 @@
         "autodocs",
         "AUTOINCREMENT",
         "datalabels",
+        "devlinks",
         "gianmarcoricciarelli",
         "nodenext",
         "nvim",
@@ -88,6 +89,9 @@
     ],
     "vim.smartRelativeLine": true,
     "workbench.colorTheme": "Everforest Dark",
+    "workbench.editorAssociations": {
+        "*.svg": "default"
+    },
     "workbench.iconTheme": "material-icon-theme",
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none"

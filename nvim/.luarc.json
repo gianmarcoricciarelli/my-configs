@@ -1,8 +1,0 @@
-{
-    "Lua.diagnostics.globals": ["vim"],
-    "Lua.workspace.checkThirdParty": false,
-    "Lua.workspace.library": [
-        "${3rd}/love2d/library",
-        "/Users/gianmarcoricciarelli/.config/nvim/"
-    ]
-}

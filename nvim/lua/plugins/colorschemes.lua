@@ -1,13 +1,18 @@
 return {
   {
-    "neanias/everforest-nvim",
-    version = false,
+    "ellisonleao/gruvbox.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
+    "sainnhe/everforest",
     lazy = false,
     priority = 1000,
     config = function()
-      require("everforest").setup({
-        disable_italic_comments = true,
-      })
+      vim.g.everforest_enable_italic = false
+      vim.g.everforest_disable_italic_comment = true
+      vim.g.everforest_background = "hard"
+      vim.g.everforest_ui_contrast = "high"
     end,
   },
   {

@@ -2,6 +2,7 @@ return {
   "williamboman/mason.nvim",
   opts = {
     ensure_installed = {
+      "css-lsp",
       "emmet-language-server",
       "eslint-lsp",
       "json-lsp",

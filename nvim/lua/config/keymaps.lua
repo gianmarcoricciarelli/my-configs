@@ -3,4 +3,6 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "<C-S-Down>", "<cmd>m+1<CR>")
+vim.keymap.set("v", "<C-S-Down>", "<cmd>m+1<CR>")
 vim.keymap.set("n", "<C-S-Up>", "<cmd>m-2<CR>")
+vim.keymap.set("v", "<C-S-Up>", "<cmd>m-2<CR>")

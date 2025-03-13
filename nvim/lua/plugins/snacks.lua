@@ -5,6 +5,13 @@ return {
             hidden = true,
             ignored = true,
             sources = {
+                explorer = {
+                    layout = {
+                        layout = {
+                            position = "right",
+                        },
+                    },
+                },
                 files = {
                     hidden = true,
                 },

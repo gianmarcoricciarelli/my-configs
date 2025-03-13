@@ -18,34 +18,38 @@
     "[lua]": {
         "editor.defaultFormatter": "JohnnyMorganz.stylua"
     },
-    "[python]": {
-        "editor.codeActionsOnSave": {
-            "source.fixAll.ruff": "always",
-            "source.organizeImports.ruff": "explicit",
-            "source.unusedImports": "explicit"
-        },
-        "editor.defaultFormatter": "charliermarsh.ruff",
-        "editor.formatOnType": true
+    "[shellscript]": {
+        "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
     },
     "cSpell.userWords": [
         "apexcharts",
         "autodocs",
         "AUTOINCREMENT",
+        "Codepen",
+        "Codewars",
         "datalabels",
         "devlinks",
+        "devto",
+        "Everforest",
+        "freecodecamp",
         "gianmarcoricciarelli",
+        "Hashnode",
+        "Iosevka",
         "nodenext",
         "nvim",
         "ohmyzsh",
         "rusqlite",
+        "trivago",
         "TRUNC",
         "xaxis",
         "yaxis"
     ],
+    "debug.allowBreakpointsEverywhere": true,
     "debug.terminal.clearBeforeReusing": true,
     "editor.detectIndentation": false,
     "editor.fontFamily": "Iosevka",
     "editor.fontSize": 14,
+    "editor.fontWeight": "500",
     "editor.formatOnSave": true,
     "editor.insertSpaces": true,
     "editor.minimap.enabled": false,
@@ -68,8 +72,6 @@
     "prettier.jsxSingleQuote": true,
     "prettier.semi": false,
     "prettier.tabWidth": 4,
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.typeCheckingMode": "strict",
     "ruff.organizeImports": true,
     "terminal.external.osxExec": "iTerm.app",
     "terminal.integrated.defaultProfile.osx": "zsh",

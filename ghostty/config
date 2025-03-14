@@ -7,6 +7,6 @@ theme = Everforest Dark - Hard
 cursor-style = bar
 cursor-style-blink = true
 
-font-family = Iosevka
+font-family = Iosevka Nerd Font
 font-size = 14
 font-style = SemiBold

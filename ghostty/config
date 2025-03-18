@@ -1,4 +1,4 @@
-command = /opt/homebrew/bin/zsh
+command = /opt/homebrew/bin/fish
 
 window-padding-x = 12
 

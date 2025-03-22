@@ -3,7 +3,21 @@ return {
     opts = {
         servers = {
             emmet_language_server = {
-                filetypes = { "html", "css", "sass", "scss" },
+                filetypes = { "html" },
+            },
+            vtsls = {
+                settings = {
+                    typescript = {
+                        inlayHints = {
+                            enumMemberValues = { enabled = false },
+                            functionLikeReturnTypes = { enabled = false },
+                            parameterNames = { enabled = false },
+                            parameterTypes = { enabled = false },
+                            propertyDeclarationTypes = { enabled = false },
+                            variableTypes = { enabled = false },
+                        },
+                    },
+                },
             },
         },
     },

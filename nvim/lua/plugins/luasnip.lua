@@ -33,6 +33,7 @@ return {
                     { i(1, "CustomHookName"), i(0) }
                 )
             ),
+            s({ trig = "lg", dscr = "console.log a value" }, fmt([[console.log({1})]], { i(1, "value") })),
         })
     end,
 }

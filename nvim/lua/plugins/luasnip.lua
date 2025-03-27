@@ -35,5 +35,17 @@ return {
             ),
             s({ trig = "cl", dscr = "console.log a value" }, fmt([[console.log({1})]], { i(1, "value") })),
         })
+
+        ls.add_snippets("markdown", {
+            s(
+                { trig = "dr", dscr = "Disabled a set of rules for the entire file" },
+                fmt(
+                    [[
+            <!-- markdownlint-disable {1} -->
+            ]],
+                    { i(0) }
+                )
+            ),
+        })
     end,
 }

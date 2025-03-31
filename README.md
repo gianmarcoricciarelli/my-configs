@@ -13,6 +13,26 @@ Here you can find each tool's references:
 - [WezTerm](https://wezterm.org/index.html)
 - [Starship](https://starship.rs/guide/)
 
+## Code plugins I use
+
+- Formatters
+  - [Prettier](https://github.com/prettier/prettier-vscode)
+- Linters
+  - [EsLint](https://github.com/Microsoft/vscode-eslint)
+- LSPs
+  - [Tailwind CSS Intellisense](https://github.com/tailwindlabs/tailwindcss-intellisense)
+- Themes
+  - [Everforest](https://github.com/sainnhe/everforest-vscode)
+  - [Material Icon Theme](https://github.com/material-extensions/vscode-material-icon-theme)
+- Utility
+  - [Auto Rename Tag](https://github.com/formulahendry/vscode-auto-rename-tag)
+  - [Code Spell Checker](https://github.com/streetsidesoftware/vscode-spell-checker)
+  - [GitLens](https://github.com/gitkraken/vscode-gitlens)
+  - [Highlight Matching Tag](https://github.com/vincaslt/vscode-highlight-matching-tag)
+  - [Pretty TypeScript Errors](https://github.com/yoavbls/pretty-ts-errors)
+  - [Project Manager](https://github.com/alefragnani/vscode-project-manager)
+  - [Turbo Console Log](https://www.turboconsolelog.io/)
+
 ## About WezTerm colors
 
 When I installed WezTerm for the first time I wanted to unify the looks and feel of WezTerm to the ones I was

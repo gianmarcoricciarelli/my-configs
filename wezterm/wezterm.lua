@@ -5,11 +5,12 @@ local config = wezterm.config_builder()
 config.default_prog = { "/opt/homebrew/bin/fish" }
 
 -- UI
+config.default_cursor_style = "SteadyBar"
+config.hide_tab_bar_if_only_one_tab = true
 config.window_padding = {
 	left = "12px",
 	right = "12px",
 }
-config.hide_tab_bar_if_only_one_tab = true
 
 -- Fonts
 config.font = wezterm.font("Iosevka Nerd Font", { weight = "DemiBold" })

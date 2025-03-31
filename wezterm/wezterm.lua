@@ -1,16 +1,21 @@
 local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
+-- Shell
 config.default_prog = { "/opt/homebrew/bin/fish" }
 
+-- UI
 config.window_padding = {
 	left = "12px",
 	right = "12px",
 }
+config.hide_tab_bar_if_only_one_tab = true
 
+-- Fonts
 config.font = wezterm.font("Iosevka Nerd Font", { weight = "DemiBold" })
 config.font_size = 14
 
+-- Colors & Themes
 config.colors = {
 	foreground = "#D3C6AA",
 	background = "#272E33",
@@ -46,6 +51,7 @@ config.colors = {
 	},
 }
 
+-- Keybindings
 config.keys = {
 	{
 		key = "H",
